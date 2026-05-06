@@ -1,0 +1,42 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String    @id @default(uuid())
+  email         String    @unique
+  password      String
+  name          String
+  role          String    @default("member")
+  createdAt     DateTime  @default(now())
+  teamId        String?
+  team          Team?     @relation(fields: [teamId], references: [id])
+  isAdmin       Boolean   @default(false)
+}
+
+model Team {
+  id            String    @id @default(uuid())
+  name          String
+  slug          String    @unique
+  plan          String    @default("free")
+  stripeCustomerId String?
+  stripeSubscriptionId String?
+  createdAt     DateTime  @default(now())
+  members       User[]
+  invites       Invite[]
+}
+
+model Invite {
+  id        String   @id @default(uuid())
+  email     String
+  teamId    String
+  team      Team     @relation(fields: [teamId], references: [id])
+  token     String   @unique @default(uuid())
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+}
