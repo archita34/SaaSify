@@ -128,15 +128,6 @@ STRIPE_ENTERPRISE_PRICE_ID="price_..."
 
 ---
 
-## 🛡️ Make Yourself Admin
-
-After registering, run Prisma Studio:
-```bash
-npx prisma studio
-```
-Open `http://localhost:5555` → click **User** → find your account → set `isAdmin` to `true` → save.
-
----
 ---
 
 ## 🚀 Deployment
