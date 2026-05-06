@@ -145,6 +145,14 @@ STRIPE_ENTERPRISE_PRICE_ID="price_..."
 > Dashboard — team workspace with member management
 > Billing — Stripe-powered plan cards
 > Admin — platform stats with MRR tracking
+> <img width="1919" height="896" alt="Screenshot 2026-05-06 150004" src="https://github.com/user-attachments/assets/3723fc1f-d438-4e1a-baad-15f999b1badf" />
+> <img width="1919" height="870" alt="Screenshot 2026-05-06 150101" src="https://github.com/user-attachments/assets/4e366152-25c8-4476-94d5-764c3e5c476e" />
+> <img width="1911" height="909" alt="Screenshot 2026-05-06 150130" src="https://github.com/user-attachments/assets/30ca9f1e-0dfa-41a9-a7d2-a4eb3f0fedb0" />
+> <img width="1917" height="879" alt="Screenshot 2026-05-06 150153" src="https://github.com/user-attachments/assets/e6aa04aa-6eed-4036-87ff-76feda9310e3" />
+
+
+
+
 
 ---
 
