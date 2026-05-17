@@ -6,7 +6,7 @@
 
 ## 🔴 Live Demo
 
-**[https://your-saasify-link.netlify.app](https://cute-starship-3b3e8d.netlify.app)**
+**[https://saasify-link.netlify.app](https://cute-starship-3b3e8d.netlify.app)**
 
 > Test credentials — Email: `demo@saasify.com` · Password: `demo1234`
 
